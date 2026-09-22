@@ -4,6 +4,21 @@
     {
         static void Main(string[] args)
         {
+            #region Part 01 — Theoretical Questions
+            //1 Abstraction means showing only what an object can do, and hiding how it does it
+            // b 1 It defines the contract that makes the other three pillars work together. It hides complexity
+
+            // a 1 Abstract Class : Yes, alongside abstract members with no body ,Can have fields
+            // a 2 Interface : No, only method signatures, no fields, no implementation
+
+            // b  When unrelated classes need to share a capability, not an identity.
+
+            // c No to the first, yes to the second.
+
+            #endregion
+
+
+
             DeliveryCenter center = new DeliveryCenter("suez");
             DeliveryAddress address = new DeliveryAddress("suez", "Nile St", 10);
 
